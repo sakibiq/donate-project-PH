@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(/images/donation1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* mix-blend-mode: darken; */
+  opacity: 0.7;
+  /* text-align: center; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.middle {
+  text-align: center;
+}
+
+.main-text {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.secondary-text {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  width: 140px;
+  background-color: #eb455f;
+  color: white;
+}
+
+.donate-now {
+  /* background-color: #eb455f; */
+  height: 100vh;
+  text-align: center;
+  padding: 150px;
+}
+
+.donate-today {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.price-ul {
+  list-style: none;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.price ul li {
+  padding: 50px;
+  font-size: 30px;
+}
