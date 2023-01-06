@@ -50,7 +50,7 @@
   /* background-color: #eb455f; */
   height: 100vh;
   text-align: center;
-  padding: 150px;
+  padding: 100px;
 }
 
 .donate-today {
@@ -68,4 +68,25 @@
 .price ul li {
   padding: 50px;
   font-size: 30px;
+  color: #2f2e2c;
+}
+
+.li-border {
+  border: 2px solid rgb(212, 110, 85);
+  background-color: #f5e0e3;
+  border-radius: 4px;
+}
+
+.textbox {
+  border: none;
+  padding-top: 80px;
+  font-size: 15px;
+}
+
+hr {
+  border: 1px solid rgb(134, 115, 115);
+}
+
+.btn1 {
+  margin-top: 30px;
 }
